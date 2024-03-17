@@ -1,0 +1,164 @@
+
+.logo-cabecera{
+	margin: 2% 0 0 2%;
+}
+
+body{
+	font-family: Inter, 'Times New Roman', Times, serif;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 48px;
+	background-color: #E9ECF8;
+}
+.input-box{
+	position: relative;
+	width: 100%;
+	height: 80vh; /* 100% de la altura de la ventana */
+}
+.input-mensaje{
+	resize: none;
+}
+
+.input-mensaje{
+    font-family: Inter, 'Times New Roman', Times, serif;
+    color: #052051;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    overflow-y: auto;
+    background-color: #E9ECF8;
+    border: none;
+    outline: none;
+    width: 45%;
+    height: 45%;
+    margin: 5% 0 0 10%;
+}
+.input-box textarea::placeholder{
+	color: #052051;
+	font-family: Inter, 'Times New Roman', Times, serif;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 48px;
+	box-sizing: border-box;
+	text-align: left;
+	white-space: pre-wrap;
+	
+}
+.input-box .float #encriptacion{
+	background-color: #FFFFFF;
+	position: absolute;
+	color: #000000;
+	font-size: 32px;
+	line-height: 48px;
+	box-sizing: border-box;
+	overflow-y: auto;
+	display: none;
+}
+
+.float {
+	display: inline;
+    float: right;
+    align-items: center;
+    margin: 33.3px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 20%;
+    height: 85%;
+    padding: 2%;
+    background-color: #FFFFFF;
+}
+
+
+.float textarea{
+    font-family: Inter;
+    height: 78%;
+    width: inherit;
+    border: none;
+    outline: none;
+    resize: none;
+	
+}
+
+.sinmensaje{
+	text-align:center;
+	margin-top: 50%;
+	padding: 10px;
+}
+.sinmensaje img + p{
+	font: bolder;
+}
+
+.sinmensaje p + p{
+	font-size: small;
+}n
+
+.input-box button{
+	display: block;
+}
+
+
+#boton-encriptar{
+	border: 2px solid #000000;
+	border-radius: 10px;
+	background-color: #052051; /* Cambia #fedcba al color que desees */
+    color: #ffffff;
+}
+
+#boton-desencriptar{
+	border: 2px solid #000000;
+	background-color: #0A3871;
+	color: #ffffff;
+	border-radius: 10px;
+}
+#boton-copiar{
+	border: 2px solid #000000;
+	border-radius: 10px;
+	color: #000000;
+
+}
+#pie {
+    margin: 12% 0% 0% 26%;
+    position: absolute;
+    font-size: medium;
+    font-style: oblique;
+    opacity: 50%;
+}
+
+ul{
+	position: relative;
+    list-style: none;
+    font-size: medium;
+    text-align: center;
+    bottom: 0;
+    margin: 15% 0 0 20%;
+}
+
+ul li{
+	width: 313px;
+	padding:  0 0 0 0;
+	display: inline-block;
+	margin: 0 0 0 15px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+ul li p:hover{
+	background-color: #CED4DA;
+}
+
+
+/* Estilos generales para todos los dispositivos */
+
+@media only screen and (max-width: 768px) {
+  /* Estilos específicos para dispositivos con un ancho de pantalla máximo de 768px (por ejemplo, tablets y teléfonos) */
+  .float {
+    width: 100%; /* Cambia el ancho del .float a 100% para que ocupe todo el ancho de la pantalla */
+    margin: 10px; /* Cambia el margen para que sea más pequeño en dispositivos más pequeños */
+  }
+
+  /* Otros estilos específicos para dispositivos más pequeños */
+}

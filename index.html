@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="esp">
+	<head>
+		<!- incluir fuente de letra externo desde google fonts-!->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="reset.css">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+		<meta charset="UTF-8">
+		<title>Encriptador - Alura</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+		<header>
+			<h1 class="logo-cabecera"><img src="Logo.png"></h1>
+		</header>
+		<body>
+		<section class="input-box">
+			<textarea required placeholder="Ingrese el texto aqui" id="mensaje" class="input-mensaje"></textarea>
+			<div class="float">
+				<textarea id="encriptacion" disabled></textarea>	
+				<div class="sinmensaje">
+					<img class="muneco" src="Muñeco.png" alt="Placeholder Image">
+					<p>Ningun mensaje fue encontrado</p>
+					<p>Ingresa el texto que desees encriptar o desencriptar</p>
+				</div>	
+			</div>
+			<div id="pie">
+				<p>&#9888; Solo letras minúsculas y sin acentos</p>
+			</div>
+			<ul>
+				<li onclick="encriptar()">
+					<p id="boton-encriptar">Encriptar</p>
+				</li>
+				<li onclick="desencriptar()">
+					<p id="boton-desencriptar">Desencriptar</p>
+				</li>
+				<li onclick="copy()">
+					<p id="boton-copiar">Copiar</p>
+				</li>
+			</ul>
+			<script src="encriptador.js"></script>
+		</section>
+
+	</body>
+	<main>
+
+	</main>
+	
+</html>
