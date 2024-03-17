@@ -151,14 +151,13 @@ ul li p:hover{
 }
 
 
-/* Estilos generales para todos los dispositivos */
+/* Estilos generales para todos los dispositivos (pendientes por implementar) */
 
 @media only screen and (max-width: 768px) {
-  /* Estilos específicos para dispositivos con un ancho de pantalla máximo de 768px (por ejemplo, tablets y teléfonos) */
+
   .float {
-    width: 100%; /* Cambia el ancho del .float a 100% para que ocupe todo el ancho de la pantalla */
-    margin: 10px; /* Cambia el margen para que sea más pequeño en dispositivos más pequeños */
+    width: 100%; 
+    margin: 10px; 
   }
 
-  /* Otros estilos específicos para dispositivos más pequeños */
 }
